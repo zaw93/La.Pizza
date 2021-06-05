@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;600;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Spectral', serif; */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-expand-lg .nav-item .nav-link {
+  margin-right: 3rem;
+}
+
+.navbar-expand-lg .nav-item .nav-link:hover {
+  color: #ffc107;
+}
+
+/*********************************/
+/*********** HOME PAGE ***********/
+
+/* HERO SECTION */
+
+.hero h1 {
+  font-family: 'Spectral', serif;
+  font-weight: 200;
+}
+
+.hero .right-col {
+  background-image: url('./assets/images/pizza-cutout.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 100% 5%;
+}
+
+.hero .fab:hover {
+  color: #ffc107;
+}
+
+/* SIGNATURE SECTION */
+.signature {
+  background: #f6f6f6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.signature h3 {
+  font-family: 'Spectral', serif;
+  font-weight: 400;
+}
+
+/* GO to ABOUT SECTION */
+.about {
+  overflow: hidden;
+}
+
+.about img {
+  width: 80%;
+  height: auto;
+}
+
+.about h3 {
+  font-family: 'Spectral', serif;
+  font-weight: 200;
+}
+
+/* BOOKING SECTION */
+.book {
+  background: #f6f6f6;
+}
+
+.book h4 {
+  font-family: 'Spectral', serif;
+  font-weight: 400;
+}
+
+.book img {
+  filter: grayscale(100%);
+  width: 80%;
+  height: auto;
+}
+
+.book img:hover {
+  filter: grayscale(0%);
+}
+
+/* FOOTER */
+footer .fab:hover {
+  color: #ffc107;
+}
+
+/*********** MEDIA QUERIES ***********/
+@media (max-width: 1200px) {
+  .hero .right-col {
+    background-size: 90%;
+    background-position: 100% 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero .right-col {
+    background-size: 100%;
+    background-position: 100% 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .right-col {
+    background: none;
+  }
+}
+
+/************************************/
+
+/*********************************/
+/*********** ABOUT PAGE ***********/
+.underline {
+  width: 180px;
+  border: 1px solid #dc9457;
+  margin: 15px auto;
+  margin-bottom: 30px;
+}
